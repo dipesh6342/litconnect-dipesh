@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Title -->
+    <title>Events - Unite Through Stories</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navbar/Heeder section -->
+    <header>
+        <!-- Logo -->
+        <a href="/">LitConnect</a>
+        <!-- Toggle button for mobile view -->
+        <button id="nav-toggle" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <!-- Navigation links -->
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="events.html" class="active">Events</a></li>
+                <li><a href="members.html">Members</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Layout -->
+    <main>
+        <!-- Page Top container -->
+        <div class="page_top_container">
+            <h1 class="page_title">Events</h1>
+            <!-- Breadcrumb -->
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <p>Events</p>
+            </div>
+        </div>
+
+
+
+        <!-- Calendar Container -->
+        <section class="events_container" style="background: transparent;">
+
+            <!-- Calendar Table -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sunday</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                        <th>Saturday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="event">1<br>
+                            <div class="event">Book Discussion</div>
+                        </td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>5<br>
+                            <div class="event">Networking Event</div>
+                        </td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9<br>
+                            <div class="event">Guest Speaker</div>
+                        </td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14<br>
+                            <div class="event">Workshop</div>
+                        </td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22<br>
+                            <div class="event">Panel Discussion</div>
+                        </td>
+                        <td>23</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30<br>
+                            <div class="event">Book Launch</div>
+                        </td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+        <!-- Recent completed events -->
+        <section class="completed_events_container">
+            <!-- Top Container -->
+            <div class="top_container">
+                <h1 class="tag_title">
+                    Completed Events
+                </h1>
+                <p>
+                    Stay updated on past events and gatherings.
+                </p>
+            </div>
+
+            <!-- Completed Events Card Container -->
+            <div class="completed_events">
+                <div class="event_card">
+                    <h3>Book Discussion</h3>
+                    <p>Join us for a discussion on the latest book releases.</p>
+                    <div class="event_date">
+                        <p class="event_chip"><i class="fa-solid fa-calendar"></i> 2024-11-17</p>
+                        <p class="event_chip"><i class="fa-solid fa-clock"></i> 10:00 AM - 11:00 AM</p>
+                    </div>
+                    <p class="event_chip"><i class="fa-solid fa-map-marker-alt"></i> Online</p>
+                </div>
+
+                <div class="event_card">
+                    <h3>Networking Event</h3>
+                    <p>Connect with fellow readers and book enthusiasts.</p>
+                    <div class="event_date">
+                        <p class="event_chip"><i class="fa-solid fa-calendar"></i> 2024-11-17</p>
+                        <p class="event_chip"><i class="fa-solid fa-clock"></i> 10:00 AM - 11:00 AM</p>
+                    </div>
+                    <p class="event_chip"><i class="fa-solid fa-map-marker-alt"></i> Sydney Opera House Australia</p>
+                </div>
+
+                <div class="event_card">
+                    <h3>Guest Speaker</h3>
+                    <p>Learn from industry experts and authors.</p>
+                    <div class="event_date">
+                        <p class="event_chip"><i class="fa-solid fa-calendar"></i> 2024-11-17</p>
+                        <p class="event_chip"><i class="fa-solid fa-clock"></i> 10:00 AM - 11:00 AM</p>
+                    </div>
+                    <p class="event_chip"><i class="fa-solid fa-map-marker-alt"></i> Sydney Opera House Australia</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Footer Section -->
+        <footer>
+            <p>Copyright &copy; 2024 Litconnect. All rights reserved.</p>
+            <div class="social_links">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </footer>
+
+    </main>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
